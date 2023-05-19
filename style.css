@@ -1,0 +1,11 @@
+#dropArea {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  #dropArea:hover {
+    background-color: #f2f2f2;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Import</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./import.js"></script>
+</head>
+<body>
+  <h1>Function Name: <span id="functionName"></span></h1>
+  <h2>Function Id: <span id="functionId"></span></h2>
+<h3> Create your labels here: </h3>
+
+<div id="labels">
+    <input class="labelName" type="text" name="Label name" placeholder="Label name"><br><br>
+    <textarea rows="10" cols="20" class="labelDescription" name="Label description" placeholder="Label description"></textarea><br><br>
+    <button onclick="createLabel()">Create Label</button>
+    
+    <button onclick="listLabels()">List Labels</button>
+
+    <div id="labelList"></div>
+
+</div>
+
+
+
+
+  <div id="dropArea">
+    <p>Drag and drop images here. </p> <br> 
+</div><br><br>
+<input class="label_name" type="text" name="Label Name" placeholder="Assign Label">
+ <button onclick="annotateImage()"> assign images </button>
+
+
+
+</body>
+</html>
+
