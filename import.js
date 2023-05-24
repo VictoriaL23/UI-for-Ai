@@ -192,3 +192,11 @@ function annotateAllImages() {
 
   droppedSampleIds = []; // Reset the array
 }
+
+function nextPage (){
+
+  window.open("invoke.html", "_blank");
+
+}
+
+
