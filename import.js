@@ -162,8 +162,9 @@ function addAndAnnotateImage(imageUrl) {
 }
 
 function annotateImage(sampleId, labelId) {
-  const token = localStorage.getItem('token');
+
   const functionId = localStorage.getItem('functionId');
+  const token = localStorage.getItem('token');
 
   // Make a PUT request to annotate the image
   fetch('https://www.nyckel.com/v1/functions/' + functionId + '/samples/' + sampleId + '/annotation', {

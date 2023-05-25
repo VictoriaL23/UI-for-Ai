@@ -7,17 +7,48 @@
     <title>Document</title>
 <!-- 
     Styles sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-autoplay.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-comments.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-fullscreen.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-rotate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-share.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-thumbnail.min.css">
     <link rel="stylesheet" href="./style.css">
+    
     <script defer src="./invoke.js"></script>
     <!--Jquery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
 <body>
-    <h1>Test your model Here</h1>
+    <h1>Test your model Here</h1> 
 
-    <div id="dropArea">
-        <p>Drag and drop images here. </p> <br> 
-    </div><br><br>
+    <div id="gallery">
+        <a href="./Images/ECO2302029_230515105829_COLOR-CHANGE.jpg" data-lg-size="1000-600"
+            data-lg-thumbnail="https://picsum.photos/id/1018/250/150">
+            <img src="./Images/ECO2302029_230515105829_COLOR-CHANGE.jpg" draggable="true" ondragstart="handleDragStart(event)">
+        </a>
+        <a href="./Images/ECO2302029_230515112829_COLOR-CHANGE.jpg" data-lg-size="1000-600"
+            data-lg-thumbnail="https://picsum.photos/id/102/250/150">
+            <img src="./Images/ECO2302029_230515112829_COLOR-CHANGE.jpg" draggable="true" ondragstart="handleDragStart(event)">
+        </a>
+        <a href="./Images/ECO2302029_230515122829_COLOR-CHANGE.jpg" data-lg-size="1000-600"
+            data-lg-thumbnail="https://picsum.photos/id/1005/250/150">
+            <img src="./Images/ECO2302029_230515122829_COLOR-CHANGE.jpg" draggable="true" ondragstart="handleDragStart(event)">
+        </a>
+    </div>
+        <div id="dropArea">
+        <p>Drag and drop images here.</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/autoplay/lg-autoplay.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/rotate/lg-rotate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/share/lg-share.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+   
 </body>
 </html>
